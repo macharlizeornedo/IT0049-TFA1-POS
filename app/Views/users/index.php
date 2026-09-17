@@ -26,25 +26,25 @@
         <h1><?= esc((string) $title) ?></h1>
 
         <p>
-            The following customer records are temporarily stored in a static
-            PHP array.
+            The following staff records are temporarily stored in a static PHP
+            array.
         </p>
 
         <table>
             <thead>
                 <tr>
+                    <th>Username</th>
                     <th>Full Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
+                    <th>Role</th>
                 </tr>
             </thead>
 
             <tbody>
-                <?php foreach ($customers as $customer): ?>
+                <?php foreach ($users as $user): ?>
                     <tr>
-                        <td><?= esc($customer['full_name']) ?></td>
-                        <td><?= esc($customer['email']) ?></td>
-                        <td><?= esc($customer['phone']) ?></td>
+                        <td><?= esc($user['username']) ?></td>
+                        <td><?= esc($user['full_name']) ?></td>
+                        <td><?= esc($user['role']) ?></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>
