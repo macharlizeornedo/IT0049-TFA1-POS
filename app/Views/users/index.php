@@ -30,25 +30,26 @@
             array.
         </p>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Username</th>
-                    <th>Full Name</th>
-                    <th>Role</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <?php foreach ($users as $user): ?>
+        <div class="table-container">
+            <table>
+                <thead>
                     <tr>
-                        <td><?= esc($user['username']) ?></td>
-                        <td><?= esc($user['full_name']) ?></td>
-                        <td><?= esc($user['role']) ?></td>
+                        <th>Username</th>
+                        <th>Full Name</th>
+                        <th>Role</th>
                     </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
+                </thead>
+
+                <tbody>
+                    <?php foreach ($users as $user): ?>
+                        <tr>
+                            <td><?= esc($user['username']) ?></td>
+                            <td><?= esc($user['full_name']) ?></td>
+                            <td><?= esc($user['role']) ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
     </main>
 </body>
 
