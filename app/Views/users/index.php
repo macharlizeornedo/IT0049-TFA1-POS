@@ -7,7 +7,7 @@
 
     <title><?= esc((string) $title) ?></title>
 
-    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/style.css?v=4') ?>">
 </head>
 
 <body>
