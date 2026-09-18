@@ -31,6 +31,12 @@ class Customers extends BaseController
                 'phone'     => '09121682614',
             ],
 
+            [
+                'full_name' => 'Emelyn G. Ornedo',
+                'email'     => 'Emelyn.G.Ornedo@example.com',
+                'phone'     => '09121682613',
+            ],
+
         ];
 
         $data = [

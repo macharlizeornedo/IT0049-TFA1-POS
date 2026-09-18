@@ -584,3 +584,73 @@ tbody td:first-child::before {
         font-size: 29px;
     }
 }
+
+/* =========================================================
+   COMPACT DESKTOP LAYOUT
+   ========================================================= */
+
+@media (min-width: 761px) {
+
+    /* Slightly smaller navigation */
+    .navbar {
+        min-height: 68px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav-brand::before {
+        width: 39px;
+        height: 39px;
+        font-size: 21px;
+    }
+
+    /* Smaller main content box */
+    main {
+        width: min(1020px, 86%);
+        min-height: unset;
+        margin: 36px auto;
+        padding: 32px 38px;
+        border-radius: 22px;
+    }
+
+    /* Smaller page heading */
+    h1 {
+        margin-bottom: 18px;
+        padding-bottom: 13px;
+        font-size: clamp(30px, 4vw, 41px);
+    }
+
+    h1::after {
+        width: 68px;
+        height: 4px;
+    }
+
+    /* More compact description */
+    p {
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* More compact table */
+    table {
+        margin-top: 22px;
+        border-radius: 15px;
+    }
+
+    th {
+        padding: 14px 18px;
+        font-size: 12px;
+    }
+
+    td {
+        padding: 13px 18px;
+        font-size: 14px;
+    }
+
+    tbody td:first-child::before {
+        width: 7px;
+        height: 7px;
+        margin-right: 9px;
+    }
+}
