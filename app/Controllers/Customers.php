@@ -8,32 +8,26 @@ class Customers extends BaseController
     {
         $customers = [
             [
-                'full_name' => 'Juan Dela Cruz',
-                'email'     => 'juan@example.com',
+                'full_name' => 'Maria Charlize G. Ornedo',
+                'email'     => 'MariaCharlize.G.Ornedo@example.com',
                 'phone'     => '09123456789',
             ],
 
             [
-                'full_name' => 'Shae Ornedo',
-                'email'     => 'Shae.com',
+                'full_name' => 'Shae G. Ornedo',
+                'email'     => 'Shae.G.Ornedo@example.com',
                 'phone'     => '09121682611',
             ],
 
             [
-                'full_name' => 'Kenneth Ornedo',
-                'email'     => 'Kenneth.com',
+                'full_name' => 'Kenneth G. Ornedo',
+                'email'     => 'Kenneth.G.Ornedo@example.com',
                 'phone'     => '09121682612',
             ],
 
             [
-                'full_name' => 'Emelyn Ornedo',
-                'email'     => 'Emelyn.com',
-                'phone'     => '09121682613',
-            ],
-
-            [
-                'full_name' => 'Charlie Ornedo',
-                'email'     => 'Charlie.com',
+                'full_name' => 'Charlie G. Ornedo',
+                'email'     => 'Charlie.G.Ornedo@example.com',
                 'phone'     => '09121682614',
             ],
 
